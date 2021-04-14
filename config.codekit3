@@ -86,18 +86,15 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/facebookicon.jpg" : {
-      "ft" : 16384,
-      "iS" : 26300,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/facebookicon.jpg",
-      "oF" : 1,
-      "oIPL" : 0,
+    "\/deploy\/img\/FBicon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/FBicon.svg",
+      "oF" : 0,
       "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/deploy\/img\/hero.jpg" : {
       "ft" : 16384,
@@ -149,18 +146,15 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/instaicon.jpg" : {
-      "ft" : 16384,
-      "iS" : 52352,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/instaicon.jpg",
-      "oF" : 1,
-      "oIPL" : 0,
+    "\/deploy\/img\/IGicon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/IGicon.svg",
+      "oF" : 0,
       "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/deploy\/img\/logo.png" : {
       "ft" : 32768,
@@ -188,18 +182,15 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/twiticon.jpg" : {
-      "ft" : 16384,
-      "iS" : 8779,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/twiticon.jpg",
-      "oF" : 1,
-      "oIPL" : 0,
+    "\/deploy\/img\/TWicon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/TWicon.svg",
+      "oF" : 0,
       "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/deploy\/img\/writing-utensils.jpg" : {
       "ft" : 16384,
@@ -214,18 +205,15 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/yticon.jpg" : {
-      "ft" : 16384,
-      "iS" : 44609,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/yticon.jpg",
-      "oF" : 1,
-      "oIPL" : 0,
+    "\/deploy\/img\/YTicon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/YTicon.svg",
+      "oF" : 0,
       "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/deploy\/index.html" : {
       "cB" : 0,
