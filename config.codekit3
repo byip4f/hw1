@@ -86,6 +86,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/facebookicon.jpg" : {
+      "ft" : 16384,
+      "iS" : 26300,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/facebookicon.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/hero.jpg" : {
       "ft" : 16384,
       "iS" : 245050,
@@ -136,6 +149,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/instaicon.jpg" : {
+      "ft" : 16384,
+      "iS" : 52352,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/instaicon.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/logo.png" : {
       "ft" : 32768,
       "iS" : 4239,
@@ -162,6 +188,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/twiticon.jpg" : {
+      "ft" : 16384,
+      "iS" : 8779,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/twiticon.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/writing-utensils.jpg" : {
       "ft" : 16384,
       "iS" : 2911063,
@@ -169,6 +208,19 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/writing-utensils.jpg",
       "oF" : 1,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/yticon.jpg" : {
+      "ft" : 16384,
+      "iS" : 44609,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/yticon.jpg",
+      "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-none",
