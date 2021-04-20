@@ -27,8 +27,6 @@ ul {
 
     .header {
         grid-area: header;
-        display: grid;
-        grid-template-columns: 50px 50
     }
 
     .navigation {
@@ -54,12 +52,10 @@ ul {
     margin-bottom: 24px;
 
     @include md {
-        background: grey;
         margin-bottom: 32px;
     }
 
     @include lg {
-        background: lightblue;
         margin-bottom: 64px;
     }
 
