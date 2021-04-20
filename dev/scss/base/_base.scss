@@ -16,6 +16,13 @@ ul {
 }
 
 .content {
+    grid-template-areas: 
+    "header"
+    "navigation"
+    "hero"
+    "hero2"
+    "whats-new"
+    "footer";
     margin-bottom: 24px;
 
     @include md {
