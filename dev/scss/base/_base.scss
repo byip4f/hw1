@@ -16,13 +16,39 @@ ul {
 }
 
 .content {
+    display: grid;
     grid-template-areas: 
-    "header"
-    "navigation"
-    "hero"
-    "hero2"
-    "whats-new"
-    "footer";
+        "header"
+        "navigation"
+        "hero"
+        "hero2"
+        "whats-new"
+        "footer";
+        
+    .header {
+        grid-area: header;
+    }
+
+    .navigation {
+        grid-area: navigation;
+    }
+
+    .hero {
+        grid-area: hero;
+    }
+
+    .hero2 {
+        grid-area: hero2;
+    }
+
+    .whats-new {
+        grid-area: whats-new;
+    }
+
+    .footer {
+        grid-area: footer;
+    }
+
     margin-bottom: 24px;
 
     @include md {
