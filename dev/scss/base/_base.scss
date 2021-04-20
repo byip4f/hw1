@@ -24,8 +24,7 @@ ul {
         "hero2"
         "whats-new"
         "footer";
-    } 
-
+        
     .header {
         grid-area: header;
     }
@@ -63,3 +62,4 @@ ul {
     @include xl { 
         margin-bottom: 64px;
     }
+}
