@@ -27,6 +27,8 @@ ul {
 
     .header {
         grid-area: header;
+        display: grid;
+        grid-template-columns: 50px 50
     }
 
     .navigation {
