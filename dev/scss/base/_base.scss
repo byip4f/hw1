@@ -15,7 +15,7 @@ ul {
     }
 }
 
-.content {
+main {
     display: grid;
     grid-template-areas: 
         "header"
@@ -24,42 +24,29 @@ ul {
         "hero2"
         "whats-new"
         "footer";
+} 
         
-    .header {
+.header {
         grid-area: header;
-    }
-
-    .navigation {
-        grid-area: navigation;
-    }
-
-    .hero {
-        grid-area: hero;
-    }
-
-    .hero2 {
-        grid-area: hero2;
-    }
-
-    .whats-new {
-        grid-area: whats-new;
-    }
-
-    .footer {
-        grid-area: footer;
-    }
-
-    margin-bottom: 24px;
-
-    @include md {
-        margin-bottom: 32px;
-    }
-
-    @include lg {
-        margin-bottom: 64px;
-    }
-
-    @include xl { 
-        margin-bottom: 64px;
-    }
 }
+
+.navigation {
+        grid-area: navigation;
+}
+
+.hero {
+        grid-area: hero;
+}
+
+.hero2 {
+        grid-area: hero2;
+}
+
+.whats-new {
+        grid-area: whats-new;
+}
+
+.footer {
+        grid-area: footer;
+}
+
