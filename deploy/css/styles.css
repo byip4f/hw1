@@ -365,18 +365,45 @@ ul li {
   list-style: none;
 }
 
-.content {
-  margin-bottom: 24px;
+main {
+  display: grid;
+  grid-template-areas: "header" "navigation" "hero" "hero2" "whats-new" "footer";
 }
-@media (min-width: 768px) {
-  .content {
-    margin-bottom: 32px;
-  }
+
+.header {
+  grid-area: header;
 }
-@media (min-width: 1200px) {
-  .content {
-    margin-bottom: 64px;
-  }
+.header h1 {
+  display: grid;
+  grid-template-columns: 60px auto;
+  align-content: center;
+}
+
+.navigation {
+  grid-area: navigation;
+}
+
+.hero {
+  grid-area: hero;
+}
+.hero ul {
+  display: grid;
+}
+.hero a {
+  display: grid;
+  grid-template-columns: 400px auto;
+}
+
+.hero2 {
+  grid-area: hero2;
+}
+
+.whats-new {
+  grid-area: whats-new;
+}
+
+.footer {
+  grid-area: footer;
 }
 
 /* =============

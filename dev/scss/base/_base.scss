@@ -28,6 +28,12 @@ main {
         
 .header {
         grid-area: header;
+
+        h1 {
+            display: grid;
+            grid-template-columns: 60px auto;
+            align-content: center;
+        }
 }
 
 .navigation {
@@ -35,7 +41,16 @@ main {
 }
 
 .hero {
-        grid-area: hero;
+    grid-area: hero;
+
+    ul {
+        display: grid;
+    }
+
+    a {
+        display: grid;
+        grid-template-columns: 400px auto;
+    }
 }
 
 .hero2 {
