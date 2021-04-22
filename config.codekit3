@@ -21,6 +21,32 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/deploy\/img\/2writing-utensils copy.jpg" : {
+      "ft" : 16384,
+      "iS" : 0,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/2writing-utensils copy.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/2writing-utensils.jpg" : {
+      "ft" : 16384,
+      "iS" : 423483,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/2writing-utensils.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/article1.jpg" : {
       "ft" : 16384,
       "iS" : 1774865,

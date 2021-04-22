@@ -375,8 +375,10 @@ main {
 }
 .header h1 {
   display: grid;
-  grid-template-columns: 60px auto;
-  align-content: center;
+  grid-template-columns: 40px 60px 280px;
+  grid-template-rows: 77px;
+  align-items: center;
+  background-color: lightgray;
 }
 
 .navigation {
