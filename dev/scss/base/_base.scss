@@ -40,6 +40,12 @@ main {
 
 .navigation {
         grid-area: navigation;
+
+        h2 {
+            display: grid;
+            grid-template-rows: 66px;
+            align-items: center;
+        }
 }
 
 .hero {

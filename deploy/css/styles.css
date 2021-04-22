@@ -384,6 +384,11 @@ main {
 .navigation {
   grid-area: navigation;
 }
+.navigation h2 {
+  display: grid;
+  grid-template-rows: 66px;
+  align-items: center;
+}
 
 .hero {
   grid-area: hero;
