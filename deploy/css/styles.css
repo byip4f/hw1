@@ -435,3 +435,7 @@ p {
 .section-title {
   font-weight: 300;
 }
+
+.hero2 .hero2c {
+  display: none;
+}
