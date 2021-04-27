@@ -397,6 +397,9 @@ main {
 
 .hero {
   grid-area: hero;
+  background: url("/deploy/img/hero.jpg");
+  width: 100vw;
+  height: 500px;
 }
 .hero ul {
   display: grid;
@@ -464,4 +467,10 @@ p {
 
 .hero2 .hero2c {
   display: none;
+}
+
+.hero {
+  background: url("/deploy/img/hero.jpg");
+  width: 100vw;
+  height: 500px;
 }
