@@ -104,13 +104,6 @@ main {
 
 .whats-new {
         grid-area: whats-new;
-
-        article {
-            display: grid;
-            
-            grid-template-rows: 300px 50px 100px;
-
-        }
 }
 
 .footer {
