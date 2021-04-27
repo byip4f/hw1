@@ -46,43 +46,63 @@ main {
             grid-template-rows: 66px;
             align-items: center;
         }
+
+        @include md {
+            grid-template-columns: 300px auto;
+        }
 }
 
 .hero {
-    grid-area: hero;
+        grid-area: hero;
 
-    ul {
-        display: grid;
-        background-color: #EAEAEA;
-        grid-template-rows: 68px 90px;
-    }
+        ul {
+            display: grid;
+            background-color: #EAEAEA;
+            grid-template-rows: 68px 90px;
+        }
 
-    a {
-        display: grid;
-        grid-template-columns: 400px auto;
-    }
+        a {
+            display: grid;
+            grid-template-columns: 400px auto;
+        }
 }
 
 .hero2 {
         grid-area: hero2;
 
-    article {
-        display: grid;
-        background-color: #d5d5d5;
-    }
+        article {
+            display: grid;
+            background-color: #d5d5d5;
+        }
 }
 
 .whats-new {
         grid-area: whats-new;
 
-    h1 {
-        display: grid;
-        grid-template-rows: 55px;
-        align-items: center;
-    }
+        article {
+            display: grid;
+            grid-template-rows: 100px 30px 100px;
+            background-color: green;
+        }
 }
 
 .footer {
         grid-area: footer;
-}
 
+        .locations {
+            ul { 
+                display: grid;
+                grid-template-rows: 93px;
+            }
+
+            div{ 
+                display: grid;
+                grid-template-columns: 55px auto; 
+            }
+        }
+
+        a {
+            display: grid;
+            grid-template-rows: 50px;
+        }
+}

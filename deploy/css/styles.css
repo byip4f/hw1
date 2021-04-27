@@ -389,6 +389,11 @@ main {
   grid-template-rows: 66px;
   align-items: center;
 }
+@media (min-width: 768px) {
+  .navigation {
+    grid-template-columns: 300px auto;
+  }
+}
 
 .hero {
   grid-area: hero;
@@ -414,14 +419,26 @@ main {
 .whats-new {
   grid-area: whats-new;
 }
-.whats-new h1 {
+.whats-new article {
   display: grid;
-  grid-template-rows: 55px;
-  align-items: center;
+  grid-template-rows: 100px 30px 100px;
+  background-color: green;
 }
 
 .footer {
   grid-area: footer;
+}
+.footer .locations ul {
+  display: grid;
+  grid-template-rows: 93px;
+}
+.footer .locations div {
+  display: grid;
+  grid-template-columns: 55px auto;
+}
+.footer a {
+  display: grid;
+  grid-template-rows: 50px;
 }
 
 /* =============
