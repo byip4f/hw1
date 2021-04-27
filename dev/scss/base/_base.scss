@@ -67,19 +67,41 @@ main {
 .hero2 {
         grid-area: hero2;
 
-        article {
-            display: grid;
-            background-color: #d5d5d5;
+        .hero2top {
+
+            li {
+                display: grid;
+                grid-template-rows: auto 20px auto;
+            }
+
+            ul {
+                display: grid;
+                grid-template-rows: 118px;
+            }
+
+            div {
+                display: grid;
+                grid-template-columns: 300px 100px;
+                grid-template-rows: 52px 200px;
+                background-color: #d5d5d5;
+            }
         }
 }
 
 .whats-new {
         grid-area: whats-new;
+
+        article {
+            display: grid;
+            
+            grid-template-rows: 300px 50px 100px;
+
+        }
 }
 
 .footer {
         grid-area: footer;
-
+        background-color: #B6AFB0; //TEMPORARY COLOR
         .locations {
             ul { 
                 display: grid;

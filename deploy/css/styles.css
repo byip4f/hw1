@@ -407,17 +407,32 @@ main {
 .hero2 {
   grid-area: hero2;
 }
-.hero2 article {
+.hero2 .hero2top li {
   display: grid;
+  grid-template-rows: auto 20px auto;
+}
+.hero2 .hero2top ul {
+  display: grid;
+  grid-template-rows: 118px;
+}
+.hero2 .hero2top div {
+  display: grid;
+  grid-template-columns: 300px 100px;
+  grid-template-rows: 52px 200px;
   background-color: #d5d5d5;
 }
 
 .whats-new {
   grid-area: whats-new;
 }
+.whats-new article {
+  display: grid;
+  grid-template-rows: 300px 50px 100px;
+}
 
 .footer {
   grid-area: footer;
+  background-color: #B6AFB0;
 }
 .footer .locations ul {
   display: grid;
