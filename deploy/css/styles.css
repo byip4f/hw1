@@ -368,6 +368,7 @@ ul li {
 main {
   display: grid;
   grid-template-areas: "header" "navigation" "hero" "hero2" "whats-new" "footer";
+  grid-gap: 20px;
 }
 
 .header {
@@ -389,17 +390,9 @@ main {
   grid-template-rows: 66px;
   align-items: center;
 }
-@media (min-width: 768px) {
-  .navigation {
-    grid-template-columns: 300px auto;
-  }
-}
 
 .hero {
   grid-area: hero;
-  background: url("/deploy/img/hero.jpg");
-  width: 100vw;
-  height: 500px;
 }
 .hero ul {
   display: grid;
@@ -421,11 +414,6 @@ main {
 
 .whats-new {
   grid-area: whats-new;
-}
-.whats-new article {
-  display: grid;
-  grid-template-rows: 100px 30px 100px;
-  background-color: green;
 }
 
 .footer {
@@ -467,10 +455,4 @@ p {
 
 .hero2 .hero2c {
   display: none;
-}
-
-.hero {
-  background: url("/deploy/img/hero.jpg");
-  width: 100vw;
-  height: 500px;
 }
