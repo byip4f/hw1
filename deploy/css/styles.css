@@ -396,12 +396,23 @@ main {
 }
 .hero ul {
   display: grid;
-  background-color: #EAEAEA;
   grid-template-rows: 68px 90px;
 }
 .hero a {
   display: grid;
-  grid-template-columns: 400px auto;
+  grid-template-columns: 300px 50px;
+}
+@media (min-width: 768px) {
+  .hero ul {
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: 50px;
+  }
+  .hero ul .pens {
+    grid-column: span 7;
+  }
+  .hero ul .notebooks {
+    grid-column: span 8;
+  }
 }
 
 .hero2 {

@@ -54,13 +54,27 @@ main {
 
         ul {
             display: grid;
-            background-color: #EAEAEA;
+            //background-color: #EAEAEA;
             grid-template-rows: 68px 90px;
         }
 
         a {
             display: grid;
-            grid-template-columns: 400px auto;
+            grid-template-columns: 300px 50px;
+        }
+
+        @include md {
+            ul {
+                grid-template-columns: repeat(15, 1fr);
+                grid-template-rows: 50px;
+    
+                .pens {
+                    grid-column: span 7;
+                }
+                .notebooks {
+                    grid-column: span 8;
+                }
+            }
         }
 }
 
