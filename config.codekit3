@@ -135,15 +135,17 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/hero2b.webp" : {
-      "ft" : 8388608,
-      "iS" : 62928,
+    "\/deploy\/img\/hero2b.jpg" : {
+      "ft" : 16384,
+      "iS" : 1173812,
+      "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/hero2b.webp",
-      "oF" : 1,
+      "oAP" : "\/deploy\/img\/hero2b.jpg",
+      "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "ou" : "lpckwebp-default",
+      "ou" : "lpckwebp-none",
+      "q" : 100,
       "rq" : 75
     },
     "\/deploy\/img\/hero2c.jpg" : {

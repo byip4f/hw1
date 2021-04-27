@@ -479,7 +479,24 @@ p {
   font-weight: 300;
 }
 
+.hero2 .image {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero2 .hero2a {
+  background-image: url(/deploy/img/hero2a.jpg);
+  height: 70vh;
+  width: 100%;
+}
+.hero2 .hero2b {
+  background-image: url(/deploy/img/hero2b.jpg);
+  height: 100vh;
+  width: 100%;
+}
 .hero2 .hero2c {
+  background-image: url(/deploy/img/hero2c.jpg);
+  height: 70vh;
+  width: 100%;
   display: none;
 }
 
