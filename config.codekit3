@@ -34,19 +34,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/2writing-utensils.jpg" : {
-      "ft" : 16384,
-      "iS" : 423483,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/2writing-utensils.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/deploy\/img\/article1.jpg" : {
       "ft" : 16384,
       "iS" : 1774865,
@@ -208,6 +195,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/Qwriting-utensils.jpg" : {
+      "ft" : 16384,
+      "iS" : 2911063,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Qwriting-utensils.jpg",
+      "oF" : 1,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/TWicon.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -220,13 +220,13 @@
     },
     "\/deploy\/img\/writing-utensils.jpg" : {
       "ft" : 16384,
-      "iS" : 2911063,
+      "iS" : 423483,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/writing-utensils.jpg",
-      "oF" : 1,
+      "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
