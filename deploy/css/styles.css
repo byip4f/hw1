@@ -406,9 +406,18 @@ main {
 .hero2 {
   grid-area: hero2;
 }
+.hero2 article {
+  display: grid;
+  background-color: #d5d5d5;
+}
 
 .whats-new {
   grid-area: whats-new;
+}
+.whats-new h1 {
+  display: grid;
+  grid-template-rows: 55px;
+  align-items: center;
 }
 
 .footer {
