@@ -54,7 +54,6 @@ main {
 
         ul {
             display: grid;
-            //background-color: #EAEAEA;
             grid-template-rows: 68px 90px;
         }
 
@@ -80,24 +79,26 @@ main {
 
 .hero2 {
         grid-area: hero2;
-
-        .hero2top {
-
-            li {
-                display: grid;
-                grid-template-rows: auto 20px auto;
-            }
-
+    
+        div {
+            display: grid;
+            grid-template-columns: 200px 198px;
+            grid-template-rows: 52px 150px;
+        }
+            
+        @include md {
             ul {
-                display: grid;
-                grid-template-rows: 118px;
-            }
+                display: grid; 
+                grid-template-columns: repeat(19, 2fr);
+                grid-template-rows: 250px;
 
-            div {
-                display: grid;
-                grid-template-columns: 300px 100px;
-                grid-template-rows: 52px 200px;
-                background-color: #d5d5d5;
+                .utensils {
+                    grid-column: span 9;
+                }
+
+                .nbs {
+                    grid-column: span 10;
+                }
             }
         }
 }

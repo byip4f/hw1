@@ -418,19 +418,23 @@ main {
 .hero2 {
   grid-area: hero2;
 }
-.hero2 .hero2top li {
+.hero2 div {
   display: grid;
-  grid-template-rows: auto 20px auto;
+  grid-template-columns: 200px 198px;
+  grid-template-rows: 52px 150px;
 }
-.hero2 .hero2top ul {
-  display: grid;
-  grid-template-rows: 118px;
-}
-.hero2 .hero2top div {
-  display: grid;
-  grid-template-columns: 300px 100px;
-  grid-template-rows: 52px 200px;
-  background-color: #d5d5d5;
+@media (min-width: 768px) {
+  .hero2 ul {
+    display: grid;
+    grid-template-columns: repeat(19, 2fr);
+    grid-template-rows: 250px;
+  }
+  .hero2 ul .utensils {
+    grid-column: span 9;
+  }
+  .hero2 ul .nbs {
+    grid-column: span 10;
+  }
 }
 
 .whats-new {
