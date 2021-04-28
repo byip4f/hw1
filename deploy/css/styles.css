@@ -436,10 +436,15 @@ main {
 .whats-new {
   grid-area: whats-new;
 }
+.whats-new article {
+  display: grid;
+  grid-template-columns: 400px;
+  grid-template-rows: 200px 80px 80px 20px;
+  align-items: center;
+}
 
 .footer {
   grid-area: footer;
-  background-color: #B6AFB0;
 }
 .footer .locations ul {
   display: grid;
@@ -501,4 +506,34 @@ p {
   height: 70vh;
   width: 100%;
   background-size: cover;
+}
+
+.whats-new .image {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.whats-new .new1 {
+  background-image: url(/deploy/img/article1.jpg);
+  width: 100%;
+  height: 100%;
+}
+.whats-new .new2 {
+  background-image: url(/deploy/img/article2.jpg);
+  width: 100%;
+  height: 100%;
+}
+.whats-new .new3 {
+  background-image: url(/deploy/img/article3.jpg);
+  width: 100%;
+  height: 100%;
+}
+.whats-new .new4 {
+  background-image: url(/deploy/img/article4.jpg);
+  width: 100%;
+  height: 100%;
+}
+.whats-new .new5 {
+  background-image: url(/deploy/img/article5.jpg);
+  width: 100%;
+  height: 100%;
 }
