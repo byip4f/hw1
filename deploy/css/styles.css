@@ -438,8 +438,8 @@ main {
 }
 .whats-new article {
   display: grid;
-  grid-template-columns: 400px;
-  grid-template-rows: 200px 80px 80px 20px;
+  grid-template-columns: 576px;
+  grid-template-rows: 400px 80px 80px 20px;
   align-items: center;
 }
 
