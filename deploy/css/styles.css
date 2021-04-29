@@ -437,26 +437,33 @@ main {
   }
   .hero2 article {
     display: grid;
-    grid-template-columns: repeat(15, 1fr);
+    grid-template-columns: 576px 576px;
     grid-gap: 30px;
     justify-content: center;
-  }
-  .hero2 article .hero2a {
-    grid-column: span 7;
-  }
-  .hero2 article .hero2b {
-    grid-column: span 8;
   }
 }
 
 .whats-new {
   grid-area: whats-new;
 }
+.whats-new h1 {
+  display: grid;
+  grid-template-rows: 100px;
+  align-items: center;
+}
 .whats-new article {
   display: grid;
   grid-template-columns: 576px;
   grid-template-rows: 400px 80px 80px 20px;
   align-items: center;
+}
+@media (min-width: 768px) {
+  .whats-new ul {
+    display: grid;
+    grid-template-columns: 576px 576px;
+    grid-gap: 30px;
+    justify-content: center;
+  }
 }
 
 .footer {

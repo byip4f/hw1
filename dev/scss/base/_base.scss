@@ -103,17 +103,9 @@ main {
 
             article {
                 display: grid;
-                grid-template-columns: repeat(15, 1fr);
+                grid-template-columns: 576px 576px;
                 grid-gap: 30px;
                 justify-content: center;
-
-                .hero2a {
-                    grid-column: span 7;
-                }
-
-                .hero2b {
-                    grid-column: span 8;
-                }
             }
         }
 }
@@ -121,11 +113,26 @@ main {
 .whats-new {
         grid-area: whats-new;
     
+        h1 {
+            display: grid;
+            grid-template-rows: 100px;
+            align-items: center;
+        }
+
         article {
             display: grid;
             grid-template-columns: 576px;
             grid-template-rows: 400px 80px 80px 20px;
             align-items: center;
+        }
+        
+        @include md {
+            ul {
+                display: grid;
+                grid-template-columns: 576px 576px;
+                grid-gap: 30px;
+                justify-content: center;
+            }
         }
 }
 
