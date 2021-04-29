@@ -5,25 +5,27 @@
     
     .image {
         background-repeat: no-repeat;
-        background-size: cover
-    }
+    }   
 
     .hero2a {
         background-image: url(/deploy/img/hero2a.jpg);
         height: 70vh;
         width: 100%;
+        background-size: cover;
     }
 
     .hero2b {
         background-image: url( /deploy/img/hero2b.jpg);
         height: 70vh;
         width: 100%;
+        background-size: cover;
     }
 
     .hero2c {
         background-image: url(/deploy/img/hero2c.jpg);
         height: 70vh;
         width: 100%;
+        background-size: cover;
         display: none;
     }
 }

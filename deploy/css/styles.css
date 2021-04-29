@@ -378,7 +378,7 @@ main {
   display: grid;
   grid-template-columns: 40px 60px 280px;
   grid-template-rows: 77px;
-  align-items: center;
+  align-content: center;
   background-color: #EAEAEA;
 }
 
@@ -388,7 +388,7 @@ main {
 .navigation h2 {
   display: grid;
   grid-template-rows: 66px;
-  align-items: center;
+  align-content: center;
 }
 
 .hero {
@@ -402,38 +402,27 @@ main {
   display: grid;
   grid-template-columns: 300px 50px;
 }
-@media (min-width: 768px) {
-  .hero ul {
-    grid-template-columns: repeat(15, 1fr);
-    grid-template-rows: 50px;
-  }
-  .hero ul .pens {
-    grid-column: span 7;
-  }
-  .hero ul .notebooks {
-    grid-column: span 8;
-  }
-}
 
 .hero2 {
   grid-area: hero2;
 }
 .hero2 div {
   display: grid;
-  grid-template-columns: 200px 198px;
-  grid-template-rows: 52px 150px;
+  grid-template-columns: 200px 50px 150px;
+  grid-template-rows: 100px 20px;
+}
+.hero2 ul {
+  display: grid;
+  grid-gap: 30px;
 }
 @media (min-width: 768px) {
   .hero2 ul {
     display: grid;
-    grid-template-columns: repeat(19, 2fr);
-    grid-template-rows: 250px;
-  }
-  .hero2 ul .utensils {
-    grid-column: span 9;
-  }
-  .hero2 ul .nbs {
-    grid-column: span 10;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 160px;
+    grid-gap: 30px;
+    justify-content: center;
+    align-items: center;
   }
   .hero2 article {
     display: grid;
@@ -505,22 +494,24 @@ p {
 
 .hero2 .image {
   background-repeat: no-repeat;
-  background-size: cover;
 }
 .hero2 .hero2a {
   background-image: url(/deploy/img/hero2a.jpg);
   height: 70vh;
   width: 100%;
+  background-size: cover;
 }
 .hero2 .hero2b {
   background-image: url(/deploy/img/hero2b.jpg);
   height: 70vh;
   width: 100%;
+  background-size: cover;
 }
 .hero2 .hero2c {
   background-image: url(/deploy/img/hero2c.jpg);
   height: 70vh;
   width: 100%;
+  background-size: cover;
   display: none;
 }
 

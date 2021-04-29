@@ -34,7 +34,7 @@ main {
             display: grid;
             grid-template-columns: 40px 60px 280px;
             grid-template-rows: 77px;
-            align-items: center;
+            align-content: center;
             background-color: #EAEAEA;
         }
 }
@@ -45,7 +45,7 @@ main {
         h2 {
             display: grid;
             grid-template-rows: 66px;
-            align-items: center;
+            align-content: center;
         }
 }
 
@@ -55,25 +55,11 @@ main {
         ul {
             display: grid;
             grid-template-rows: 68px 90px;
-        }
+            }
 
         a {
             display: grid;
             grid-template-columns: 300px 50px;
-        }
-
-        @include md {
-            ul {
-                grid-template-columns: repeat(15, 1fr);
-                grid-template-rows: 50px;
-    
-                .pens {
-                    grid-column: span 7;
-                }
-                .notebooks {
-                    grid-column: span 8;
-                }
-            }
         }
 }
 
@@ -82,23 +68,23 @@ main {
     
         div {
             display: grid;
-            grid-template-columns: 200px 198px;
-            grid-template-rows: 52px 150px;
+            grid-template-columns: 200px 50px 150px;
+            grid-template-rows: 100px 20px;
+        }
+
+        ul {
+            display:grid;
+            grid-gap: 30px;
         }
             
         @include md {
             ul {
                 display: grid; 
-                grid-template-columns: repeat(19, 2fr);
-                grid-template-rows: 250px;
-
-                .utensils {
-                    grid-column: span 9;
-                }
-
-                .nbs {
-                    grid-column: span 10;
-                }
+                grid-template-columns: 400px 400px;
+                grid-template-rows: 160px;
+                grid-gap: 30px;
+                justify-content: center;
+                align-items: center;
             }
 
             article {
@@ -106,6 +92,7 @@ main {
                 grid-template-columns: 576px 576px;
                 grid-gap: 30px;
                 justify-content: center;
+                
             }
         }
 }
