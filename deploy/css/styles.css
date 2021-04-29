@@ -435,6 +435,18 @@ main {
   .hero2 ul .nbs {
     grid-column: span 10;
   }
+  .hero2 article {
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-gap: 30px;
+    justify-content: center;
+  }
+  .hero2 article .hero2a {
+    grid-column: span 7;
+  }
+  .hero2 article .hero2b {
+    grid-column: span 8;
+  }
 }
 
 .whats-new {
@@ -495,7 +507,7 @@ p {
 }
 .hero2 .hero2b {
   background-image: url(/deploy/img/hero2b.jpg);
-  height: 100vh;
+  height: 70vh;
   width: 100%;
 }
 .hero2 .hero2c {
