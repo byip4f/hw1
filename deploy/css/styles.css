@@ -394,17 +394,25 @@ main {
 .hero {
   grid-area: hero;
 }
-.hero ul {
+.hero div {
   display: grid;
-  grid-template-rows: 68px 90px;
+  grid-template-columns: 300px 20px;
+  grid-template-rows: 20px 50px;
+  justify-content: center;
 }
-.hero a {
-  display: grid;
-  grid-template-columns: 300px 50px;
+@media (min-width: 768px) {
+  .hero ul {
+    display: grid;
+    grid-template-columns: 300px 500px;
+    grid-gap: 30px;
+    justify-content: center;
+  }
 }
 
 .hero2 {
   grid-area: hero2;
+  display: grid;
+  grid-gap: 30px;
 }
 .hero2 div {
   display: grid;
@@ -414,6 +422,7 @@ main {
 .hero2 ul {
   display: grid;
   grid-gap: 30px;
+  justify-items: center;
 }
 @media (min-width: 768px) {
   .hero2 ul {

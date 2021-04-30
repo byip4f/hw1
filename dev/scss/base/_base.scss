@@ -1,6 +1,7 @@
 /* =============
     Base
 ============= */
+
 figure {
     margin: 0;
     padding: 0;
@@ -52,20 +53,28 @@ main {
 .hero {
         grid-area: hero;
 
-        ul {
+        div {
             display: grid;
-            grid-template-rows: 68px 90px;
-            }
+            grid-template-columns: 300px 20px;
+            grid-template-rows: 20px 50px;
+            justify-content: center;
+        }
 
-        a {
-            display: grid;
-            grid-template-columns: 300px 50px;
+        @include md {
+            ul {
+                display: grid;
+                grid-template-columns: 300px 500px;
+                grid-gap: 30px;
+                justify-content: center;
+            }
         }
 }
 
 .hero2 {
         grid-area: hero2;
-    
+        display: grid;
+        grid-gap: 30px;
+        
         div {
             display: grid;
             grid-template-columns: 200px 50px 150px;
@@ -75,9 +84,11 @@ main {
         ul {
             display:grid;
             grid-gap: 30px;
+            justify-items: center;
         }
             
         @include md {
+
             ul {
                 display: grid; 
                 grid-template-columns: 400px 400px;
