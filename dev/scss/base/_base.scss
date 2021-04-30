@@ -111,6 +111,11 @@ main {
 .whats-new {
         grid-area: whats-new;
     
+        ul {
+            display: grid;
+            grid-gap: 30px;
+        }
+    
         h1 {
             display: grid;
             grid-template-rows: 100px;
@@ -120,7 +125,7 @@ main {
         article {
             display: grid;
             grid-template-columns: 576px;
-            grid-template-rows: 400px 80px 80px 20px;
+            grid-template-rows: 400px 40px 50px 20px;
             align-items: center;
         }
         
