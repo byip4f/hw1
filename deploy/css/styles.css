@@ -475,18 +475,16 @@ main {
 
 .footer {
   grid-area: footer;
+  margin-left: 40px;
+  display: grid;
 }
-.footer .locations ul {
+.footer .locations li {
   display: grid;
   grid-template-rows: 93px;
 }
 .footer .locations div {
   display: grid;
   grid-template-columns: 55px auto;
-}
-.footer a {
-  display: grid;
-  grid-template-rows: 20px;
 }
 
 /* =============

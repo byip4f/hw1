@@ -146,10 +146,13 @@ main {
 
 .footer {
         grid-area: footer;
+        margin-left: 40px;
+        display: grid;
+
         .locations {
-            ul { 
+            li { 
                 display: grid;
-                grid-template-rows: 93px;
+                grid-template-rows: 93px;      
             }
 
             div{ 
@@ -158,8 +161,4 @@ main {
             }
         }
 
-        a {
-            display: grid;
-            grid-template-rows: 20px;
-        }
 }
