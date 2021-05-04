@@ -373,7 +373,7 @@ main {
 
 .header {
   grid-area: header;
-  padding-left: 30px;
+  padding-left: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: #EAEAEA;
@@ -471,6 +471,11 @@ main {
   align-items: center;
 }
 @media (min-width: 768px) {
+  .whats-new {
+    display: grid;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
   .whats-new ul {
     display: grid;
     grid-template-columns: 576px 576px;
@@ -509,6 +514,10 @@ main {
 .footer .rightfooter {
   display: grid;
   grid-gap: 20px;
+}
+.footer .newsletter {
+  display: grid;
+  grid-gap: 10px;
 }
 @media (min-width: 768px) {
   .footer {
