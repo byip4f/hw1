@@ -368,7 +368,7 @@ ul li {
 main {
   display: grid;
   grid-template-areas: "header" "navigation" "hero" "hero2" "whats-new" "footer";
-  grid-gap: 20px;
+  grid-gap: 30px;
 }
 
 .header {
@@ -489,6 +489,26 @@ main {
 .footer .locations div {
   display: grid;
   grid-template-columns: 55px auto;
+}
+@media (min-width: 768px) {
+  .footer {
+    display: grid;
+    margin-left: 20px;
+    margin-bottom: 50px;
+  }
+  .footer section {
+    display: grid;
+    grid-template-columns: 384px 384px;
+  }
+  .footer .sublocations {
+    display: grid;
+    grid-template-rows: 165px;
+  }
+  .footer .rightfooter {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-rows: 50px;
+  }
 }
 
 /* =============

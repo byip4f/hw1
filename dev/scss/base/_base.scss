@@ -25,7 +25,7 @@ main {
         "hero2"
         "whats-new"
         "footer";
-        grid-gap: 20px;
+        grid-gap: 30px;
 } 
         
 .header {
@@ -163,4 +163,25 @@ main {
             }
         }
 
+        @include md {
+                display: grid;
+                margin-left: 20px;
+                margin-bottom: 50px;
+
+            section {
+                display: grid; 
+                grid-template-columns: 384px 384px;
+            }
+
+            .sublocations {
+                display: grid;
+                grid-template-rows: 165px;
+            }
+
+            .rightfooter {
+                display: grid;
+                grid-gap: 30px;
+                grid-template-rows: 50px;
+            }
+        }
 }
