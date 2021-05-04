@@ -121,10 +121,24 @@ main {
 
             article {
                 display: grid;
-                grid-template-columns: 576px 576px;
-                grid-gap: 30px;
+                grid-template-columns: repeat(2,1fr);
                 justify-content: center;
                 
+            }
+        }
+
+        @include lg {
+            article {
+                display: grid;
+                grid-template-columns: repeat(5,1fr);
+
+                .hero2a {
+                    grid-column: span 3;
+                }
+
+                .hero2b {
+                    grid-column: span 2;
+                }
             }
         }
 }

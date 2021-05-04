@@ -453,9 +453,20 @@ main {
   }
   .hero2 article {
     display: grid;
-    grid-template-columns: 576px 576px;
-    grid-gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
     justify-content: center;
+  }
+}
+@media (min-width: 1024px) {
+  .hero2 article {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .hero2 article .hero2a {
+    grid-column: span 3;
+  }
+  .hero2 article .hero2b {
+    grid-column: span 2;
   }
 }
 
