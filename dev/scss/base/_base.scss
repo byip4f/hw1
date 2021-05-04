@@ -90,7 +90,7 @@ main {
         
         div {
             display: grid;
-            grid-template-columns: 200px 50px 150px;
+            grid-template-columns: 200px 40px 130px;
             grid-template-rows: 100px 20px;
         }
 
@@ -99,14 +99,14 @@ main {
             grid-gap: 30px;
             justify-items: center;
         }
-            
+        
         @include md {
 
             ul {
                 display: grid; 
                 grid-template-columns: 400px 400px;
                 grid-template-rows: 160px;
-                grid-gap: 30px;
+                grid-gap: 40px;
                 justify-content: center;
                 align-items: center;
             }

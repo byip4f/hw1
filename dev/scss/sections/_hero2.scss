@@ -28,4 +28,14 @@
         background-size: cover;
         display: none;
     }
+
+    .utensils {
+        background-color: $darkGray; 
+        padding: 15px;
+    }
+
+    .nbs {
+        background-color: $lightGray;
+        padding: 15px;
+    }
 }

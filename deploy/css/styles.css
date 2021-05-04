@@ -427,7 +427,7 @@ main {
 }
 .hero2 div {
   display: grid;
-  grid-template-columns: 200px 50px 150px;
+  grid-template-columns: 200px 40px 130px;
   grid-template-rows: 100px 20px;
 }
 .hero2 ul {
@@ -440,7 +440,7 @@ main {
     display: grid;
     grid-template-columns: 400px 400px;
     grid-template-rows: 160px;
-    grid-gap: 30px;
+    grid-gap: 40px;
     justify-content: center;
     align-items: center;
   }
@@ -576,6 +576,14 @@ p {
   width: 100%;
   background-size: cover;
   display: none;
+}
+.hero2 .utensils {
+  background-color: #D5D5D5;
+  padding: 15px;
+}
+.hero2 .nbs {
+  background-color: #EAEAEA;
+  padding: 15px;
 }
 
 .hero-img {
