@@ -62,20 +62,24 @@ main {
 .hero {
         grid-area: hero;
 
+        li {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+        }
+
         div {
             display: grid;
             grid-template-columns: 300px 20px;
-            grid-template-rows: 20px 50px;
-            justify-content: center;
+            grid-template-rows: 20px 35px;
         }
 
         @include md {
             ul {
                 display: grid;
-                grid-template-columns: 300px 500px;
-                grid-gap: 30px;
-                justify-content: center;
-            }
+                grid-template-columns: 550px 700px;
+                grid-template-rows: 100px;    
+           }
         }
 }
 
