@@ -25,7 +25,7 @@ main {
         "hero2"
         "whats-new"
         "footer";
-        grid-gap: 30px;
+        grid-gap: 25px;
 } 
         
 .header {
@@ -78,8 +78,16 @@ main {
             ul {
                 display: grid;
                 grid-template-columns: 450px auto;
-                grid-template-rows: 100px;    
+                grid-template-rows: 90px;    
            }
+        }
+
+        @include lg {
+            ul {
+               display: grid;
+               grid-template-columns: repeat(2,1fr);
+               grid-template-rows: 70px;
+            }
         }
 }
 
@@ -123,6 +131,8 @@ main {
 
 .whats-new {
         grid-area: whats-new;
+        display: grid;
+        justify-content: center;
     
         ul {
             display: grid;
@@ -154,6 +164,28 @@ main {
                 justify-content: center;
             }
         }
+
+        @include lg {
+            display: grid;
+            margin-left: 20px;
+            margin-right: 20px;
+
+            ul {
+                display: grid;
+                grid-template-columns: 475px 475px 475px;
+                grid-template-rows: 500px 500px;
+                grid-gap: 30px;
+                justify-content: center;
+            }
+
+            article {
+                display: grid;
+                grid-template-columns: 475px;
+                grid-template-rows: 400px 40px 50px 20px;
+                align-items: center;
+            }
+
+        }
 }
 
 .footer {
@@ -165,7 +197,7 @@ main {
 
         section {
             display: grid;
-            grid-gap: 20px;
+            grid-gap: 40px;
         }
         .locations {
             display: grid;
@@ -187,28 +219,49 @@ main {
             }
         }
 
+        .newsletter {
+            display: grid;
+            grid-template-rows: 30px;
+            grid-gap: 10px;
+        }
+
         .rightfooter {
             display: grid;
             grid-gap: 20px;
         }
 
-        .newsletter {
-            display: grid;
-            grid-gap: 10px;
-        }
-
         @include md {
-                display: grid;
-
-            section {
-                display: grid; 
-                grid-template-columns: 300px auto;
+            display: grid;
+            section { 
+                grid-template-columns: 300px 300px;
             }
 
             .rightfooter {
                 display: grid;
-                grid-gap: 30px;
-                grid-template-rows: 50px;
+                grid-template-rows: 60px;
+            }
+        }
+
+        @include lg {
+            display: grid;
+            justify-content: left;
+            padding-left: 10px;
+            padding-right: 10px;
+
+            section {
+                display: grid;
+                grid-gap: 10px;
+                grid-template-columns: repeat(2,1fr);
+            }
+
+            .rightfooter {
+                display: grid;
+                grid-template-columns: 500px 390px;
+
+                .follow {
+                    display: grid;
+                    justify-content: right;
+                }
             }
         }
 }

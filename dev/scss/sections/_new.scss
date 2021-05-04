@@ -34,4 +34,40 @@
         width: 100%;
         height: 100%;
     }
+
+    @include lg {
+        .image {
+            background-repeat: no-repeat;
+            background-size: cover
+        }
+    
+        .new1 {
+            background-image: url(/deploy/img/article1.jpg);
+            width: 100%;
+            height: 100%;
+        }
+    
+        .new2 {
+            background-image: url(/deploy/img/article2.jpg);
+            width: 100%;
+            height: 100%;
+        }
+    
+        .new3 {
+            background-image: url(/deploy/img/article3.jpg);
+            width: 100%;
+            height: 100%;
+        }
+    
+        .new4 {
+            background-image: url(/deploy/img/article4.jpg);
+            width: 100%;
+            height: 100%;
+        }
+    
+        .new5 {
+            background-image: url(/deploy/img/article5.jpg);
+            width: 100%;
+        }  
+    }
 }
