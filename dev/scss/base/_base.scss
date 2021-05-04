@@ -30,13 +30,14 @@ main {
         
 .header {
         grid-area: header;
+        margin-left: 50px;
+        margin-top: 30px;
 
         h1 {
             display: grid;
             grid-template-columns: 40px 60px 280px;
             grid-template-rows: 77px;
             align-items: center;
-            background-color: #EAEAEA;
         }
 }
 
