@@ -475,8 +475,12 @@ main {
 
 .footer {
   grid-area: footer;
-  margin-left: 40px;
   display: grid;
+  justify-content: center;
+}
+.footer .locations {
+  display: grid;
+  grid-gap: 20px;
 }
 .footer .locations li {
   display: grid;
@@ -529,6 +533,13 @@ p {
   width: 100%;
   background-size: cover;
   display: none;
+}
+@media (min-width: 768px) {
+  .hero2 .hero2c {
+    background-image: url(/deploy/img/hero2c.jpg);
+    height: 70vh;
+    width: 100%;
+  }
 }
 
 .hero-img {
