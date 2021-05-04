@@ -27,11 +27,5 @@
         width: 100%;
         background-size: cover;
         display: none;
-
-        @include md {
-            background-image: url(/deploy/img/hero2c.jpg);
-            height: 70vh;
-            width: 100%;
-        }
     }
 }

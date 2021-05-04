@@ -555,13 +555,6 @@ p {
   background-size: cover;
   display: none;
 }
-@media (min-width: 768px) {
-  .hero2 .hero2c {
-    background-image: url(/deploy/img/hero2c.jpg);
-    height: 70vh;
-    width: 100%;
-  }
-}
 
 .hero-img {
   background: url(/deploy/img/hero.jpg);
