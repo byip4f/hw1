@@ -146,7 +146,7 @@ main {
             display: grid;
             margin-left: 20px;
             margin-right: 20px;
-            
+
             ul {
                 display: grid;
                 grid-template-columns: 576px 576px;
@@ -202,7 +202,7 @@ main {
 
             section {
                 display: grid; 
-                grid-template-columns: 384px 384px;
+                grid-template-columns: 300px auto;
             }
 
             .rightfooter {

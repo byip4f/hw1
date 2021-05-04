@@ -525,7 +525,7 @@ main {
   }
   .footer section {
     display: grid;
-    grid-template-columns: 384px 384px;
+    grid-template-columns: 300px auto;
   }
   .footer .rightfooter {
     display: grid;
