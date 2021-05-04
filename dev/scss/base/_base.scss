@@ -30,8 +30,11 @@ main {
         
 .header {
         grid-area: header;
-        margin-left: 50px;
-        margin-top: 30px;
+        padding-left: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: $lightGray;
+        
 
         h1 {
             display: grid;
