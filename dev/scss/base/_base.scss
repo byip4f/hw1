@@ -99,22 +99,26 @@ main {
         div {
             display: grid;
             grid-template-columns: 200px 40px 130px;
-            grid-template-rows: 100px 20px;
+            grid-template-rows: 90px 20px;
         }
 
         ul {
             display:grid;
-            grid-gap: 30px;
-            justify-items: center;
+            grid-gap: 20px;
         }
-        
+
+        li {
+            display: grid;
+            grid-template-columns: 400px;
+            justify-content: center;
+        }
+
         @include md {
 
             ul {
                 display: grid; 
-                grid-template-columns: 400px 400px;
+                grid-template-columns: repeat(2,1fr);
                 grid-template-rows: 160px;
-                grid-gap: 30px;
                 justify-content: center;
                 align-items: center;
             }
@@ -128,6 +132,7 @@ main {
         }
 
         @include lg {
+
             article {
                 display: grid;
                 grid-template-columns: repeat(5,1fr);
