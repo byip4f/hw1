@@ -597,6 +597,9 @@ p {
   background-color: #EAEAEA;
 }
 
+.whats-new article {
+  background-color: #F8F9FA;
+}
 .whats-new .image {
   background-repeat: no-repeat;
   background-size: cover;
