@@ -529,39 +529,6 @@ main {
   display: grid;
   grid-gap: 20px;
 }
-@media (min-width: 768px) {
-  .footer {
-    display: grid;
-  }
-  .footer section {
-    grid-template-columns: 300px 300px;
-  }
-  .footer .rightfooter {
-    display: grid;
-    grid-template-rows: 60px;
-  }
-}
-@media (min-width: 1024px) {
-  .footer {
-    display: grid;
-    justify-content: left;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  .footer section {
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .footer .rightfooter {
-    display: grid;
-    grid-template-columns: 500px 390px;
-  }
-  .footer .rightfooter .follow {
-    display: grid;
-    justify-content: right;
-  }
-}
 
 /* =============
     Typography
@@ -721,10 +688,43 @@ p {
 .footer {
   background-color: #ADA9AD;
 }
-
-.social {
+.footer .social {
   display: grid;
   grid-gap: 5px;
   grid-template-columns: repeat(4, 20px);
   grid-template-rows: 20px;
+}
+@media (min-width: 768px) {
+  .footer section {
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "a b" "a c" "a .";
+  }
+  .footer .locations {
+    grid-area: a;
+  }
+  .footer .newsletter {
+    grid-area: b;
+  }
+  .footer .follow {
+    grid-area: c;
+  }
+}
+@media (min-width: 1024px) {
+  .footer section {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "a . b . c" "a . . . ." "a . . . .";
+  }
+  .footer .locations {
+    grid-area: a;
+  }
+  .footer .newsletter {
+    grid-area: b;
+  }
+  .footer .follow {
+    grid-area: c;
+  }
 }

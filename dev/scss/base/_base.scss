@@ -213,39 +213,4 @@ main {
             display: grid;
             grid-gap: 20px;
         }
-
-        @include md {
-            display: grid;
-            section { 
-                grid-template-columns: 300px 300px;
-            }
-
-            .rightfooter {
-                display: grid;
-                grid-template-rows: 60px;
-            }
-        }
-
-        @include lg {
-            display: grid;
-            justify-content: left;
-            padding-left: 10px;
-            padding-right: 10px;
-
-            section {
-                display: grid;
-                grid-gap: 10px;
-                grid-template-columns: repeat(2,1fr);
-            }
-
-            .rightfooter {
-                display: grid;
-                grid-template-columns: 500px 390px;
-
-                .follow {
-                    display: grid;
-                    justify-content: right;
-                }
-            }
-        }
 }

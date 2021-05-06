@@ -1,10 +1,61 @@
 .footer {
     background-color: $lightfooter;
-}
 
-.social {
+    .social {
     display: grid;
     grid-gap: 5px;
     grid-template-columns: repeat(4,20px);
     grid-template-rows: 20px;
+    }
+
+    @include md {
+
+        section {
+            display: grid;
+            grid-template-columns: 1fr, 1fr;
+            grid-template-rows: repeat(3,1fr);
+            grid-template-areas: 
+                "a b"
+                "a c"
+                "a .";
+        }
+
+        .locations {
+            grid-area: a;
+        }
+
+        .newsletter {
+            grid-area: b;
+        }
+
+        .follow {
+            grid-area: c;   
+        }
+    }
+
+    @include lg {
+
+        section {
+            display: grid;
+            grid-template-columns: repeat(5,1fr);
+            grid-template-rows: repeat(3,1fr);
+            grid-template-areas:
+                "a . b . c"
+                "a . . . ."
+                "a . . . .";    
+        }
+
+        .locations {
+            grid-area: a;
+        }
+
+        .newsletter {
+            grid-area: b;
+        }
+
+        .follow {
+            grid-area: c;   
+        }
+    }
 }
+
