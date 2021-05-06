@@ -599,6 +599,14 @@ p {
 
 .whats-new article {
   background-color: #F8F9FA;
+  padding-bottom: 20px;
+}
+.whats-new h2, .whats-new p, .whats-new a {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.whats-new h2 {
+  padding-top: 20px;
 }
 .whats-new .image {
   background-repeat: no-repeat;
