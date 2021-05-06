@@ -493,55 +493,6 @@ main {
   grid-template-rows: 400px 40px 50px 20px;
   align-items: center;
 }
-@media (min-width: 768px) {
-  .whats-new {
-    display: grid;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-  .whats-new ul {
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: repeat(4, 250px);
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-areas: "a a b b" "c c d d" ". e e .";
-  }
-  .whats-new .wn1 {
-    grid-area: a;
-  }
-  .whats-new .wn2 {
-    grid-area: b;
-  }
-  .whats-new .wn3 {
-    grid-area: c;
-  }
-  .whats-new .wn4 {
-    grid-area: d;
-  }
-  .whats-new .wn5 {
-    grid-area: e;
-  }
-}
-@media (min-width: 1024px) {
-  .whats-new {
-    display: grid;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-  .whats-new ul {
-    display: grid;
-    grid-template-columns: 475px 475px 475px;
-    grid-template-rows: 500px 500px;
-    grid-gap: 30px;
-    justify-content: center;
-  }
-  .whats-new article {
-    display: grid;
-    grid-template-columns: 475px;
-    grid-template-rows: 400px 40px 50px 20px;
-    align-items: center;
-  }
-}
 
 .footer {
   grid-area: footer;
@@ -715,9 +666,13 @@ p {
     margin-left: 20px;
     margin-right: 20px;
   }
+  .whats-new .image {
+    width: 75vh;
+    height: 50vh;
+  }
   .whats-new ul {
     display: grid;
-    grid-gap: 10px;
+    grid-gap: 20px;
     grid-template-columns: repeat(4, 250px);
     grid-template-rows: repeat(3, 1fr);
     grid-template-areas: "a a b b" "c c d d" ". e e .";

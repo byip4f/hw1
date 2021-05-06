@@ -40,9 +40,14 @@
         margin-left: 20px;
         margin-right: 20px;
 
+        .image {
+            width: 75vh;
+            height: 50vh;
+        }
+
         ul {
             display: grid;
-            grid-gap: 10px;
+            grid-gap: 20px;
             grid-template-columns: repeat(4,250px);
             grid-template-rows: repeat(3,1fr);
             grid-template-areas: 
@@ -110,7 +115,7 @@
         display: grid;
         margin-left: 20px;
         margin-right: 20px;
-        
+
         ul {
             display: grid;
             grid-template-columns: 475px 475px 475px;

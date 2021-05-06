@@ -170,65 +170,6 @@ main {
             grid-template-rows: 400px 40px 50px 20px;
             align-items: center;
         }
-        
-        @include md {
-            display: grid;
-            margin-left: 20px;
-            margin-right: 20px;
-
-            ul {
-                display: grid;
-                grid-gap: 10px;
-                grid-template-columns: repeat(4,250px);
-                grid-template-rows: repeat(3,1fr);
-                grid-template-areas: 
-                    "a a b b"
-                    "c c d d"
-                    ". e e .";
-            }
-
-            .wn1 {
-                grid-area: a;
-            }
-
-            .wn2 {
-                grid-area: b;
-            }
-
-            .wn3 {
-                grid-area: c;
-            }
-
-            .wn4 {
-                grid-area: d;
-            }
-
-            .wn5 {
-                grid-area: e;
-            }
-        }
-
-        @include lg {
-            display: grid;
-            margin-left: 20px;
-            margin-right: 20px;
-
-            ul {
-                display: grid;
-                grid-template-columns: 475px 475px 475px;
-                grid-template-rows: 500px 500px;
-                grid-gap: 30px;
-                justify-content: center;
-            }
-
-            article {
-                display: grid;
-                grid-template-columns: 475px;
-                grid-template-rows: 400px 40px 50px 20px;
-                align-items: center;
-            }
-
-        }
 }
 
 .footer {
