@@ -520,10 +520,6 @@ main {
   display: grid;
   grid-template-rows: 50px;
 }
-.footer .rightfooter {
-  display: grid;
-  grid-gap: 20px;
-}
 
 /* =============
     Typography
@@ -716,6 +712,7 @@ p {
   }
   .footer .locations {
     grid-area: a;
+    padding-right: 10px;
   }
   .footer .newsletter {
     grid-area: b;
