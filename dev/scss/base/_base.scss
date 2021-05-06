@@ -178,9 +178,33 @@ main {
 
             ul {
                 display: grid;
-                grid-template-columns: 576px 576px;
-                grid-gap: 30px;
-                justify-content: center;
+                grid-gap: 10px;
+                grid-template-columns: repeat(4,250px);
+                grid-template-rows: repeat(3,1fr);
+                grid-template-areas: 
+                    "a a b b"
+                    "c c d d"
+                    ". e e .";
+            }
+
+            .wn1 {
+                grid-area: a;
+            }
+
+            .wn2 {
+                grid-area: b;
+            }
+
+            .wn3 {
+                grid-area: c;
+            }
+
+            .wn4 {
+                grid-area: d;
+            }
+
+            .wn5 {
+                grid-area: e;
             }
         }
 
