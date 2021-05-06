@@ -42,18 +42,23 @@
 
         .image {
             width: 100%;
-            height: 50vh;
+            height: 100%;
         }
 
         ul {
             display: grid;
-            grid-gap: 40px;
+            grid-gap: 30px;
             grid-template-columns: repeat(4,250px);
             grid-template-rows: repeat(3,1fr);
             grid-template-areas: 
                 "a a b b"
                 "c c d d"
                 ". e e .";
+        }
+
+        article {
+            display: grid;
+            grid-template-columns: 530px;
         }
 
         .wn1 {
@@ -79,38 +84,9 @@
 
     @include lg {
         .image {
-            background-repeat: no-repeat;
-            background-size: cover
-        }
-    
-        .new1 {
-            background-image: url(/deploy/img/article1.jpg);
             width: 100%;
             height: 100%;
         }
-    
-        .new2 {
-            background-image: url(/deploy/img/article2.jpg);
-            width: 100%;
-            height: 100%;
-        }
-    
-        .new3 {
-            background-image: url(/deploy/img/article3.jpg);
-            width: 100%;
-            height: 100%;
-        }
-    
-        .new4 {
-            background-image: url(/deploy/img/article4.jpg);
-            width: 100%;
-            height: 100%;
-        }
-    
-        .new5 {
-            background-image: url(/deploy/img/article5.jpg);
-            width: 100%;
-        }  
 
         display: grid;
         margin-left: 20px;
@@ -118,17 +94,18 @@
 
         ul {
             display: grid;
-            grid-template-columns: 475px 475px 475px;
-            grid-template-rows: 500px 500px;
-            grid-gap: 30px;
-            justify-content: center;
+            grid-template-columns: repeat(4,200px);
+            grid-template-rows: repeat(4,1fr);
+            grid-template-areas: 
+                "a a b b c c"
+                "a a b b c c"
+                ". d d e e ."
+                ". d d e e ."
         }
 
         article {
             display: grid;
-            grid-template-columns: 475px;
-            grid-template-rows: 400px 40px 50px 20px;
-            align-items: center;
+            grid-template-columns: 430px;
         }
 
     }
