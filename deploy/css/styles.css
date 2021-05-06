@@ -502,11 +502,10 @@ main {
 }
 .footer section {
   display: grid;
-  grid-gap: 40px;
+  grid-gap: 20px;
 }
 .footer .locations {
   display: grid;
-  grid-gap: 20px;
 }
 .footer .locations article {
   display: grid;
@@ -522,8 +521,7 @@ main {
 }
 .footer .newsletter {
   display: grid;
-  grid-template-rows: 30px;
-  grid-gap: 10px;
+  grid-template-rows: 50px;
 }
 .footer .rightfooter {
   display: grid;
@@ -701,9 +699,16 @@ p {
 }
 .footer .social {
   display: grid;
-  grid-gap: 5px;
   grid-template-columns: repeat(4, 20px);
   grid-template-rows: 20px;
+}
+.footer .locations li {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid black;
+}
+.footer .locations li:last-child {
+  border: none;
 }
 @media (min-width: 768px) {
   .footer section {
