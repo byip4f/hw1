@@ -368,7 +368,7 @@ ul li {
 main {
   display: grid;
   grid-template-areas: "header" "navigation" "hero" "hero2" "whats-new" "footer";
-  grid-gap: 25px;
+  grid-gap: 20px;
 }
 
 .header {
@@ -424,21 +424,17 @@ main {
   .hero ul {
     display: grid;
     grid-template-columns: 450px auto;
-    grid-template-rows: 90px;
   }
 }
 @media (min-width: 1024px) {
   .hero ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 70px;
   }
 }
 
 .hero2 {
   grid-area: hero2;
-  display: grid;
-  grid-gap: 30px;
 }
 .hero2 div {
   display: grid;
@@ -446,8 +442,7 @@ main {
   grid-template-rows: 90px 20px;
 }
 .hero2 ul {
-  display: grid;
-  grid-gap: 20px;
+  margin-bottom: 20px;
 }
 .hero2 li {
   display: grid;
@@ -466,6 +461,11 @@ main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
+  }
+  .hero2 .hero2top {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 20px;
   }
 }
 @media (min-width: 1024px) {
