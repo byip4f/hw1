@@ -485,6 +485,7 @@ main {
   grid-area: whats-new;
   display: grid;
   justify-content: center;
+  margin-bottom: 25px;
 }
 .whats-new ul {
   display: grid;
