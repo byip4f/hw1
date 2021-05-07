@@ -402,15 +402,23 @@ main {
 .hero {
   grid-area: hero;
 }
-.hero li {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-}
 .hero div {
   display: grid;
-  grid-template-columns: 300px 20px;
-  grid-template-rows: 20px 35px;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "a a a a a . . b" "c c c c c c c .";
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.hero div h3 {
+  grid-area: a;
+}
+.hero div p {
+  grid-area: c;
+}
+.hero div i {
+  grid-area: b;
 }
 @media (min-width: 768px) {
   .hero ul {

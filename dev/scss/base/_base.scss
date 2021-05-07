@@ -62,16 +62,26 @@ main {
 .hero {
         grid-area: hero;
 
-        li {
-            display: grid;
-            justify-content: center;
-            align-items: center;
-        }
-
         div {
             display: grid;
-            grid-template-columns: 300px 20px;
-            grid-template-rows: 20px 35px;
+            grid-template-columns: repeat(8,1fr);
+            grid-template-rows: repeat(2,1fr);
+            grid-template-areas: 
+                "a a a a a . . b"
+                "c c c c c c c .";
+            padding-left: 20px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+
+            h3 {
+                grid-area: a;
+            }
+            p {
+                grid-area: c;
+            }
+            i {
+                grid-area: b;
+            }
         }
 
         @include md {
