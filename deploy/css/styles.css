@@ -575,7 +575,7 @@ p {
 
 .hero-img {
   background: url(/deploy/img/hero.jpg);
-  height: 70vh;
+  height: 60vh;
   width: 100%;
   background-size: cover;
 }
