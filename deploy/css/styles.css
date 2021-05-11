@@ -491,16 +491,12 @@ main {
   display: grid;
   grid-template-columns: 55px auto;
 }
-.footer .newsletter {
-  display: grid;
-  grid-template-rows: 50px;
-}
 
 /* =============
     Typography
 ============= */
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 h1, h2, h3, h4 {
@@ -602,6 +598,10 @@ p {
   }
   .hero2 .hero2c {
     display: inline;
+  }
+  .hero2 .hero2top {
+    margin-left: 200px;
+    margin-right: 200px;
   }
 }
 
