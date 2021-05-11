@@ -447,6 +447,7 @@ main {
 }
 .hero2 ul {
   margin-bottom: 20px;
+  grid-gap: 15px;
 }
 
 .whats-new {
