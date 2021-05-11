@@ -622,6 +622,7 @@ p {
 .whats-new li {
   background-color: #F8F9FA;
   padding-bottom: 20px;
+  box-shadow: 3px 3px #EAEAEA;
 }
 .whats-new h2, .whats-new p, .whats-new a {
   padding-right: 20px;
