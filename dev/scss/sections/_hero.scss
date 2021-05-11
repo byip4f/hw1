@@ -5,6 +5,9 @@
     background-size: cover;
 }
 
+li {
+    box-shadow: 2px 4px $dropshadow;
+}
 
 .left {
     background-color: $darkGray;

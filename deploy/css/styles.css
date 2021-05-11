@@ -616,6 +616,10 @@ p {
   background-size: cover;
 }
 
+li {
+  box-shadow: 2px 4px #E7E7E7;
+}
+
 .left {
   background-color: #D5D5D5;
 }
@@ -627,7 +631,7 @@ p {
 .whats-new li {
   background-color: #F8F9FA;
   padding-bottom: 20px;
-  box-shadow: 3px 3px #EAEAEA;
+  box-shadow: 3px 3px #E7E7E7;
 }
 .whats-new h2, .whats-new p, .whats-new a {
   padding-right: 20px;
