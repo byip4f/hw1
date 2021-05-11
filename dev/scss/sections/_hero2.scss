@@ -1,4 +1,8 @@
 .hero2 {
+    li {
+        box-shadow: 2px 4px $dropshadow;
+    }
+
     .image {
         background-repeat: no-repeat;
     }   

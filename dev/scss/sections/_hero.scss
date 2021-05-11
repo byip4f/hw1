@@ -1,19 +1,17 @@
-.hero-img {
-    background: url(/deploy/img/hero.jpg);
-    height: 60vh;
-    width: 100%;
-    background-size: cover;
-}
-
-li {
-    box-shadow: 2px 4px $dropshadow;
-}
-
-.left {
-    background-color: $darkGray;
-}
-
-
-.right {
-    background-color: $lightGray;
+.hero {
+    .hero-img {
+        background: url(/deploy/img/hero.jpg);
+        height: 60vh;
+        width: 100%;
+        background-size: cover;
+    }
+    
+    .left {
+        background-color: $darkGray;
+    }
+    
+    
+    .right {
+        background-color: $lightGray;
+    }
 }

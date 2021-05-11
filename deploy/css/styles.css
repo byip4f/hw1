@@ -517,6 +517,9 @@ p {
   font-weight: 400;
 }
 
+.hero2 li {
+  box-shadow: 2px 4px #E7E7E7;
+}
 .hero2 .image {
   background-repeat: no-repeat;
 }
@@ -609,22 +612,16 @@ p {
   }
 }
 
-.hero-img {
+.hero .hero-img {
   background: url(/deploy/img/hero.jpg);
   height: 60vh;
   width: 100%;
   background-size: cover;
 }
-
-li {
-  box-shadow: 2px 4px #E7E7E7;
-}
-
-.left {
+.hero .left {
   background-color: #D5D5D5;
 }
-
-.right {
+.hero .right {
   background-color: #EAEAEA;
 }
 

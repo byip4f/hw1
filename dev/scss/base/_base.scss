@@ -61,7 +61,6 @@ main {
 
 .hero {
         grid-area: hero;
-
         div {
             display: grid;
             grid-template-columns: repeat(8,1fr);
