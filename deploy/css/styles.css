@@ -444,42 +444,6 @@ main {
 .hero2 ul {
   margin-bottom: 20px;
 }
-.hero2 li {
-  display: grid;
-  grid-template-columns: 400px;
-  justify-content: center;
-}
-@media (min-width: 768px) {
-  .hero2 ul {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 160px;
-    justify-content: center;
-    align-items: center;
-  }
-  .hero2 article {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: center;
-  }
-  .hero2 .hero2top {
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-bottom: 20px;
-  }
-}
-@media (min-width: 1024px) {
-  .hero2 article {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-  }
-  .hero2 article .hero2a {
-    grid-column: span 3;
-  }
-  .hero2 article .hero2b {
-    grid-column: span 2;
-  }
-}
 
 .whats-new {
   grid-area: whats-new;
@@ -568,8 +532,8 @@ p {
 }
 .hero2 .hero2c {
   background-image: url(/deploy/img/hero2c.jpg);
-  height: 70vh;
-  width: 100%;
+  height: 35vh;
+  width: 160%;
   background-size: cover;
   display: none;
 }
@@ -580,6 +544,63 @@ p {
 .hero2 .nbs {
   background-color: #EAEAEA;
   padding: 15px;
+}
+@media (min-width: 768px) {
+  .hero2 ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 160px;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero2 article {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+  }
+  .hero2 .hero2top {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .hero2 article {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .hero2 article .hero2a {
+    grid-column: span 3;
+  }
+  .hero2 article .hero2b {
+    grid-column: span 2;
+  }
+}
+@media (min-width: 1200px) {
+  .hero2 article {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "a a a a b b b" "a a a a c c c";
+  }
+  .hero2 article .hero2a {
+    grid-area: a;
+  }
+  .hero2 article .hero2b {
+    grid-area: b;
+  }
+  .hero2 article .hero2c {
+    grid-area: c;
+  }
+  .hero2 .hero2b {
+    background-image: url(/deploy/img/hero2b.jpg);
+    height: 35vh;
+    width: 100%;
+    background-size: cover;
+  }
+  .hero2 .hero2c {
+    display: inline;
+  }
 }
 
 .hero-img {

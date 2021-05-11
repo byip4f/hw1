@@ -102,7 +102,7 @@ main {
 }
 
 .hero2 {
-        grid-area: hero2;
+        grid-area: hero2;   
         div {
             display: grid;
             grid-template-columns: 200px 40px 130px;
@@ -113,51 +113,7 @@ main {
             margin-bottom: 20px;
         }
 
-        li {
-            display: grid;
-            grid-template-columns: 400px;
-            justify-content: center; 
-        }
-
-        @include md {
-
-            ul {
-                display: grid; 
-                grid-template-columns: repeat(2,1fr);
-                grid-template-rows: 160px;
-                justify-content: center;
-                align-items: center;
-            }
-
-            article {
-                display: grid;
-                grid-template-columns: repeat(2,1fr);
-                justify-content: center;
-                
-            }
-
-            .hero2top {
-                margin-left: 15px;
-                margin-right: 15px;
-                margin-bottom: 20px;
-            }
-        }
-
-        @include lg {
-
-            article {
-                display: grid;
-                grid-template-columns: repeat(5,1fr);
-
-                .hero2a {
-                    grid-column: span 3;
-                }
-
-                .hero2b {
-                    grid-column: span 2;
-                }
-            }
-        }
+        
 }
 
 .whats-new {
