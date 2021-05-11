@@ -406,7 +406,7 @@ main {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  grid-template-areas: "a a a a a . . b" "c c c c c c c .";
+  grid-template-areas: "a a a a a . d b" "c c c c c c . .";
   padding-left: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -419,6 +419,9 @@ main {
 }
 .hero div i {
   grid-area: b;
+}
+.hero div h4 {
+  grid-area: d;
 }
 @media (min-width: 768px) {
   .hero ul {

@@ -67,8 +67,8 @@ main {
             grid-template-columns: repeat(8,1fr);
             grid-template-rows: repeat(2,1fr);
             grid-template-areas: 
-                "a a a a a . . b"
-                "c c c c c c c .";
+                "a a a a a . d b"
+                "c c c c c c . .";
             padding-left: 20px;
             padding-top: 20px;
             padding-bottom: 20px;
@@ -81,6 +81,10 @@ main {
             }
             i {
                 grid-area: b;
+            }
+
+            h4 {
+                grid-area: d;
             }
         }
 
