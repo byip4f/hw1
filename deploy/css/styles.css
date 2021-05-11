@@ -462,8 +462,9 @@ main {
 }
 .whats-new article {
   display: grid;
+  grid-gap: 10px;
   grid-template-columns: 530px;
-  grid-template-rows: 400px 60px 50px 20px;
+  grid-template-rows: 400px auto auto 20px;
 }
 
 .footer {
@@ -618,7 +619,7 @@ p {
   background-color: #EAEAEA;
 }
 
-.whats-new article {
+.whats-new li {
   background-color: #F8F9FA;
   padding-bottom: 20px;
 }
