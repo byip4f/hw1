@@ -440,6 +440,7 @@ main {
   display: grid;
   grid-template-columns: 200px 40px 130px;
   grid-template-rows: 90px 20px;
+  justify-content: center;
 }
 .hero2 ul {
   margin-bottom: 20px;
@@ -534,7 +535,7 @@ p {
 .hero2 .hero2c {
   background-image: url(/deploy/img/hero2c.jpg);
   height: 35vh;
-  width: 160%;
+  width: 100%;
   background-size: cover;
   display: none;
 }

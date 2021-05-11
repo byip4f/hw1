@@ -107,8 +107,9 @@ main {
             display: grid;
             grid-template-columns: 200px 40px 130px;
             grid-template-rows: 90px 20px;
+            justify-content: center;
         }
-
+        
         ul {
             margin-bottom: 20px;
         }
