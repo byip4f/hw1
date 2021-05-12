@@ -377,6 +377,8 @@ main {
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: #EAEAEA;
+  font-family: "Roboto";
+  font-weight: 500;
 }
 .header h1 {
   display: grid;
@@ -625,6 +627,10 @@ p {
   background-color: #EAEAEA;
 }
 
+.whats-new h1 {
+  font-family: "Roboto";
+  font-weight: 700;
+}
 .whats-new li {
   background-color: #F8F9FA;
   padding-bottom: 20px;
